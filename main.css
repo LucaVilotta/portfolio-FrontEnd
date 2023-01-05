@@ -1,8 +1,10 @@
---#{$prefix}progress-height: #{$progress-height};
-@include rfs($progress-font-size, --#{$prefix}progress-font-size);
---#{$prefix}progress-bg: #{$progress-bg};
---#{$prefix}progress-border-radius: #{$progress-border-radius};
---#{$prefix}progress-box-shadow: #{$progress-box-shadow};
---#{$prefix}progress-bar-color: #{$progress-bar-color};
---#{$prefix}progress-bar-bg: #{$progress-bar-bg};
---#{$prefix}progress-bar-transition: #{$progress-bar-transition};
+.titulo-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: radial-gradient(rgb(11, 117, 255),rgb(17, 0, 255));
+
+}
