@@ -26,3 +26,14 @@
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
+.header-icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+
